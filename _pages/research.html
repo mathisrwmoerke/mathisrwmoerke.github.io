@@ -47,6 +47,13 @@ author_profile: true
     .abstract-content.show {
       display: block;
     }
+
+    /* Underline links on hover (inline text-decoration:none sets the resting state).
+       Scoped to <a> inside this page's content so it can't depend on a wrapper class. */
+    p a:hover,
+    .abstract-content a:hover {
+      text-decoration: underline !important;
+    }
 </style>
 
 
@@ -127,8 +134,8 @@ author_profile: true
 
 <p>
   <a style="text-decoration:none; color:rgb(20, 107, 107); font-weight:bold" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4710335">A Bayesian Stochastic Discount Factor for the Cross-Section of Individual Equity Options</a>
-  <br>with <span style="color:gray">Niclas Käfer</span>, <a style="text-decoration:none; color:gray" href="https://www.florian-weigert.com/">Florian Weigert</a>, and <span style="color:gray">Tobias Wiest</span>
-  <br><strong>Forthcoming at the <a style="text-decoration:none; color:inherit" href="https://doi.org/10.1017/S0022109025102251">Journal of Financial and Quantitative Analysis</a></strong>
+  <br>with <span style="color:gray">Niclas Kaefer</span>, <a style="text-decoration:none; color:gray" href="https://www.florian-weigert.com/">Florian Weigert</a>, and <span style="color:gray">Tobias Wiest</span>
+  <br><strong><a style="text-decoration:none; color:inherit" href="https://doi.org/10.1017/S0022109025102251">Journal of Financial and Quantitative Analysis</a></strong>, 2026, 61(4), 1632&ndash;1659
   <br>
     <button class="abstract-button" data-target="bsdf" style="margin-top:8px; margin-right:10px">Abstract</button>
     <button class="abstract-button" data-target="bsdf_pres" style="margin-top:8px">Presentations</button>
@@ -142,7 +149,7 @@ author_profile: true
 
 <p>
   <a style="text-decoration:none; color:rgb(20, 107, 107); font-weight:bold" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4405852">Option Factor Momentum</a>
-  <br>with <span style="color:gray">Niclas Käfer</span> and <span style="color:gray">Tobias Wiest</span>
+  <br>with <span style="color:gray">Niclas Kaefer</span> and <span style="color:gray">Tobias Wiest</span>
   <br><strong><a style="text-decoration:none; color:inherit" href="https://doi.org/10.1017/S0022109025000225">Journal of Financial and Quantitative Analysis</a></strong>, 2026, 61(1), 32&ndash;60
   <br>
     <button class="abstract-button" data-target="ofm" style="margin-top:8px; margin-right:10px">Abstract</button>
